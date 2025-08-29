@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Harry Potter Cluedo – Detective Sheet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <h1>🧙‍♂️ Harry Potter Cluedo Sheet</h1>
+
+  <div class="section">
+    <h2>Suspects</h2>
+    <div class="grid" id="suspects"></div>
+  </div>
+
+  <div class="section">
+    <h2>Weapons</h2>
+    <div class="grid" id="weapons"></div>
+  </div>
+
+  <div class="section">
+    <h2>Rooms</h2>
+    <div class="grid" id="rooms"></div>
+  </div>
+
+  <div class="section">
+    <h2>Notes</h2>
+    <textarea id="notes"></textarea>
+  </div>
+
+  <div class="toolbar">
+    <button onclick="resetAll()">Reset</button>
+    <button onclick="print()">Print</button>
+    <button onclick="toggleDark()">Toggle Dark Mode</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
